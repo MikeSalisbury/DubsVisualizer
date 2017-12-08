@@ -14,7 +14,7 @@ In Dubs Visualizer, users will be able to:
 - [ ] possible filter by makes/misses. (onChange)
 
 ## Wireframes
-![shotchart](https://raw.githubusercontent.com/MikeSalisbury/dubs_visualizer/master/warriors_shotchart_wireframe.png)
+![](https://raw.githubusercontent.com/MikeSalisbury/DubsVisualizer/master/docs/warriors_shotchart_wireframe.png)
 
 ## Architecture and Technologies
 - Javascript
