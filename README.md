@@ -1,4 +1,4 @@
-# Dubs Visualize
+# Dubs Visualizer
 ## A shot chart visualization of Golden State Warriors for 2014-2015, 2015-2016, 2016-2017 seasons.
 
 ## Overview
@@ -6,7 +6,7 @@ The goal of this project is to bring the Golden State Warriors incredible last 3
 
 ## Functionality and MVP
 The shotchart will be overlayed over a basketball court (ideally warriors court)
-In Dubs Visualize, users will be able to:
+In Dubs Visualizer, users will be able to:
 
 - [ ] filter shotchart by season: 2014-2015, 2015-2016, 2016-2017. (onChange)
 - [ ] hover over circle to see player's name, season fg%. (mouseOver / mouseOut)
@@ -14,7 +14,7 @@ In Dubs Visualize, users will be able to:
 - [ ] possible filter by makes/misses. (onChange)
 
 ## Wireframes
-![shotchart](https://raw.githubusercontent.com/MikeSalisbury/dubs_visualize/master/warriors_shotchart_wireframe.png)
+![shotchart](https://raw.githubusercontent.com/MikeSalisbury/dubs_visualizer/master/warriors_shotchart_wireframe.png)
 
 ## Architecture and Technologies
 - Javascript
