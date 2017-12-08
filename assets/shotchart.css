@@ -1,0 +1,85 @@
+body {
+  background: url('warriors_background_main.jpg');
+  background-position: center;
+
+}
+
+#shotchart {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#select-filters {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+#season-slider-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#player-selector-container {
+  display: flex;
+  flex-direction: column;
+}
+
+svg {
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+#shotchart-canvas {
+  background: url('141_golden_state-warriors-stadium-2012.png');
+
+}
+
+#svg-canvas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shot {
+
+}
+
+
+.playerName {
+  color: yellow;
+  font-size: 20px;
+}
+
+#season-slider {
+  cursor: pointer;
+}
+
+#selected-player {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#bubble-chart-canvas {
+  position: relative;
+}
+
+.bubble-chart-node:hover {
+  stroke: yellow;
+}
+
+.tooltip {
+  border-radius: 5px;
+  border: 1px solid yellow;
+  background-color: blue;
+}

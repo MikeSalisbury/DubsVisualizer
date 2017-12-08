@@ -1,0 +1,19 @@
+{
+  "name": "dubsvisualize",
+  "version": "1.0.0",
+  "description": "## Overview The goal of this project is to bring the Golden State Warriors incredible last 3 record setting seasons to life via their shot charts. As a huge warriors fan, this will serve to show just how efficient and extraordinary their shooting has been!",
+  "main": "shotchart.js",
+  "dependencies": {
+    "d3": "^4.12.0",
+    "d3-force": "^1.1.0",
+    "d3-scale": "^1.0.7",
+    "d3-svg-legend": "^2.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

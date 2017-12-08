@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dubs Visualize</title>
+    <link rel="stylesheet" href="./assets/shotchart.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id='shotchart'>
+      <div id='header'>
+        <h1>Dubs Visualize</h1>
+        <div id='select-filters'>
+          <div id='season-slider-container'>
+            <h3>Select a season:</h3>
+            <input name="season" type="range" min="2014" max="2016" id="season-slider" value="2016">
+            <datalist id="tickmarks">
+              <option value="2014" label="2014-2015">
+              <option value="2015" label="2015-2016">
+              <option value="2016" label="2016-2017">
+            </datalist>
+            <h3 id="selected-season">2016-2017 season</h3>
+          </div>
+          <div id='player-selector-container'>
+            <h3>Select a player:</h3>
+            <select id='selected-player'></select>
+          </div>
+        </div>
+      </div>
+      <div id='svg-canvas'>
+        <svg id='shotchart-canvas' height='643px' width='820px' ></svg>
+        <svg id='bubble-chart-canvas' height='643px' width='820px' ></svg>
+      </div>
+      <script src='bundle.js'></script>
+    </div>
+
+  </body>
+</html>
