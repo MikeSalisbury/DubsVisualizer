@@ -102,6 +102,11 @@ svg {
   margin-right: 150px;
 }
 
+.linkedin:hover {
+  border: 1px solid yellow;
+  opacity: .8;
+}
+
 .github {
   background: url('github-mark.png');
   background-position: center;
@@ -109,4 +114,10 @@ svg {
   height: 65px;
   background-size: cover;
   border-radius: 50%;
+}
+
+.github:hover {
+  border: 1px solid yellow;
+  opacity: .8;
+
 }
