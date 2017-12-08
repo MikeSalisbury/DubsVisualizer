@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Russo One', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     text-shadow: 3px 3px black;
 }
@@ -83,4 +83,30 @@ svg {
   border-radius: 5px;
   border: 1px solid yellow;
   background-color: blue;
+}
+
+.linkedin-github {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin {
+  background: url('linkedin.png');
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 150px;
+}
+
+.github {
+  background: url('github-mark.png');
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  background-size: cover;
+  border-radius: 50%;
 }

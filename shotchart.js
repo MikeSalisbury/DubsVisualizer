@@ -243,13 +243,7 @@ function ready(error, data) {
       .force('center', d3.forceCenter(820/ 2, 643 / 2))
       .force('collide', d3.forceCollide(function(d) {
         return scaleRadius(d.value) + 2;
-      }));
-      // .force("x", d3.forceX(643 / 2).strength(0.05))
-      // .force("y", d3.forceY(820/ 2).strength(0.05))
-      // .force('collide', d3.forceCollide( function(d) {
-      //   return scaleRadius(d.value) + 1;
-      // }));
-      // .on("tick", ticked);
+      })).alphaTarget(0.2);
 
       function ticked(e) {
         bubbles.attr("cx", function(d) { return d.x; })
