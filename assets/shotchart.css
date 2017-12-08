@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Russo One', sans-serif;
-    font-size: 22px;
+    font-size: 21px;
     color: white;
     text-shadow: 3px 3px black;
 }
@@ -29,6 +29,7 @@ body {
 #season-slider-container {
   display: flex;
   flex-direction: column;
+  margin-right: 132px;
 }
 
 #player-selector-container {
@@ -99,7 +100,7 @@ svg {
   height: 65px;
   background-size: cover;
   border-radius: 5px;
-  margin-right: 150px;
+  margin-right: 132px;
 }
 
 .linkedin:hover {
